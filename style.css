@@ -7,21 +7,27 @@ body{
 }
 a{
     color: white;
+    font-size: 24px;
     text-decoration: none;
 }
 ul{
     list-style-type: none;
 }
 
-main{
-
-}
-
-header{
+header, footer{
     height: 300px;
     background-color: #1F2937;
 }
-header img{
+h1{
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #f9faf8
+}
+header p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+img{
     max-width: 120px;
 } 
 header ul{
@@ -30,6 +36,35 @@ header ul{
     margin: 0;
     padding-top: 20px;
 }
+header button{
+    background-color: #3882f6;
+}
 .push-right{
     margin-left: auto;
+}
+
+.flex-info{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-info h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img-info p{
+    flex-wrap: wrap;
+}
+
+.flex-quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
