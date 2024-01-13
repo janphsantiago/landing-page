@@ -54,6 +54,12 @@ header button{
     width: 250px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 .flex-info{
     margin: 0 auto;
     text-align: center;
@@ -84,7 +90,22 @@ header button{
     align-items: center;
 }
 
+.flex-sign{
+    margin: 20px 0 20px 0;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.flex-sign button {
+    width: 150px;
+    color: white;
+    background-color:#3882f6;
+  }
 footer{
     background-color: #1F2937;
     height: 80px;
+    color:#e5e7eb;
+    text-align: center;
+    padding-top: 20px;
 }
