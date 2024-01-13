@@ -54,9 +54,15 @@ header button{
     width: 250px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 550px) {
+    header {
+      height: 100vh;
+    }
+    .hero-media{
+        margin-top: 200px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
   }
 
